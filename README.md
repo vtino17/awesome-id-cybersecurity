@@ -235,6 +235,6 @@ wevtutil qe Security /c:10 /rd:true /e:true
 
 ---
 
-**Maintained by [Valentino Saputra](https://github.com/vtino17)** — contributions welcome via PR.
+**Maintained by [Valentino Saputra](https://github.com/vtino17)** — contributions welcome via PR. To add a resource, open a pull request or suggest via issues.
 
 *Terakhir diperbarui: Juli 2026*
