@@ -76,6 +76,7 @@ Kurasi sumber daya cybersecurity untuk profesional, pelajar, dan enthusiast Indo
 | [incident-response-playbooks](https://github.com/vtino17/incident-response-playbooks) | vtino17 | IR playbooks dan forensics |
 | [network-automation-toolkit](https://github.com/vtino17/network-automation-toolkit) | vtino17 | Multi-vendor network automation |
 | [deep-mind-skill](https://github.com/vtino17/deep-mind-skill) | vtino17 | AI critical thinking skill |
+| [pantau](https://github.com/vtino17/pantau) | vtino17 | CLI link security inspector with Indonesian scam pattern detection |
 
 ## CTF & Kompetisi
 
