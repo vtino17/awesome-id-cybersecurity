@@ -102,6 +102,7 @@ Kurasi sumber daya cybersecurity untuk profesional, pelajar, dan enthusiast Indo
 - [ID-SIRTII](https://idsirtii.or.id)
 - [BSSN](https://bssn.go.id)
 - [PUSAD (CSIRT PENS)](https://csirt.pens.ac.id)
+- [Portal Satu Data Keamanan Siber](https://cloud.kemkominfo.go.id) - Platform data keamanan siber nasional Kemkomdigi
 - [Medium - Cyber Security Indonesia](https://medium.com/tag/cyber-security-indonesia)
 
 ## Tools Analisis & Forensik
