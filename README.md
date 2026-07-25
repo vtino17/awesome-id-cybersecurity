@@ -11,6 +11,8 @@ Kurasi sumber daya cybersecurity untuk profesional, pelajar, dan enthusiast Indo
 - [Blog & Media](#blog--media)
 - [Lowongan Kerja](#lowongan-kerja)
 - [Buku & Referensi](#buku--referensi)
+- [Tools Analisis & Forensik](#tools-analisis--forensik)
+- [Command References](#command-references)
 - [Channel YouTube](#channel-youtube)
 - [Kelas Online Gratis](#kelas-online-gratis)
 
