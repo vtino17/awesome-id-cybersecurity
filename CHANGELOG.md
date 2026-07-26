@@ -1,5 +1,5 @@
+# Changelog
 
-## [2026-07-26]
+## [1.0.0] - 2026-07-26
 ### Added
-- Pantau (link security inspector)
-- Portal Satu Data Keamanan Siber Indonesia
+- CHANGELOG.md
