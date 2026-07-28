@@ -59,6 +59,7 @@ Kurasi sumber daya cybersecurity untuk profesional, pelajar, dan enthusiast Indo
 - [HackTheBox](https://www.hackthebox.com) - CTF-style labs
 - [PicoCTF](https://picoctf.com) - CTF untuk pemula
 - [OWASP WebGoat](https://owasp.org/www-project-webgoat/) - Web security training
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source (GPL-3.0) autonomous AI penetration testing platform covering web, API, Active Directory and Kubernetes, orchestrating offensive tools as an MCP host with proof of exploitation and a local privacy gateway.
 - [PentesterLab](https://pentesterlab.com) - Web exploitation exercises
 - [OverTheWire](https://overthewire.org) - WarGames untuk Linux security
 
